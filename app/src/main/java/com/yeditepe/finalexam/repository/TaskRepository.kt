@@ -6,8 +6,15 @@ import com.yeditepe.finalexam.model.Task
 class TaskRepository(private val api: TaskApi) {
 
     suspend fun fetchTasks(): List<Task> {
-        // TODO 1: Call API
+      // TODO 1: Call API
         // TODO 2: Convert TaskDto list to Task list
         return TODO("Provide the return value")
+        fun taskDto() : List<TaskApi> {
+            TaskApi = taskget.TaskApi()
+            TaskDto == List<Task>
+
+
+
+        }
     }
 }
